@@ -16,12 +16,17 @@ const allImages = [
   },
   {
     path: "imagens/icones/css-3.png",
-    position: { top: "50%", left: "60%" },
+    position: { top: "50%", left: "65%" },
     speed: 0.03,
   },
   {
     path: "imagens/icones/biblioteca.png",
     position: { top: "15%", left: "75%" },
+    speed: 0.025,
+  },
+  {
+    path: "imagens/icones/biblioteca.png",
+    position: { top: "35%", left: "25%" },
     speed: 0.025,
   },
   {
@@ -60,12 +65,12 @@ const mobileImages = [
   },
   {
     path: "imagens/icones/angular-icon.webp",
-    position: { top: "50%", left: "10%" },
+    position: { top: "30%", left: "10%" },
     speed: 0.065,
   },
   {
     path: "imagens/icones/css-3.png",
-    position: { top: "65%", left: "40%" },
+    position: { top: "75%", left: "35%" },
     speed: 0.03,
   },
   {
