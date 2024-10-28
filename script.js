@@ -3,7 +3,6 @@ import { images } from "./images.js";
 const gallery = document.querySelector("#gallery");
 const hero = document.querySelector(".hero-section");
 
-// Função para criar a galeria de imagens
 const createGallery = (images) => {
   images.forEach((item) => {
     const imageWrapper = document.createElement("div");
@@ -20,7 +19,6 @@ const createGallery = (images) => {
   });
 };
 
-// Função para aplicar o efeito de movimento
 const applyMouseMovementEffect = () => {
   hero.addEventListener("mousemove", (e) => {
     gallery.querySelectorAll(".image-wrapper").forEach((image, index) => {
@@ -32,6 +30,5 @@ const applyMouseMovementEffect = () => {
   });
 };
 
-// Executa as funções
 createGallery(images);
 applyMouseMovementEffect();

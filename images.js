@@ -51,11 +51,10 @@ const allImages = [
   },
 ];
 
-// Definindo uma versão reduzida das imagens com ajustes de posição
 const mobileImages = [
   {
     path: "imagens/icones/html-5.png",
-    position: { top: "10%", left: "5%" }, // Ajuste a posição para caber na tela
+    position: { top: "10%", left: "5%" }, 
     speed: 0.08,
   },
   {
@@ -80,5 +79,4 @@ const mobileImages = [
   },
 ];
 
-// Exporta metade das imagens para celular com posições ajustadas
 export const images = window.innerWidth < 1200 ? mobileImages : allImages;
