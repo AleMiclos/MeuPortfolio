@@ -63,7 +63,10 @@ body {
   font-size: 1.1em;
   padding: 25px;
   justify-content: center;
+
 }
+
+
 
 .navList li a {
   text-decoration: none;
@@ -320,7 +323,7 @@ main {
 
 .projectsGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 50px;
   margin: 0;
 }

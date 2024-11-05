@@ -32,3 +32,7 @@ const applyMouseMovementEffect = () => {
 
 createGallery(images);
 applyMouseMovementEffect();
+
+
+
+
